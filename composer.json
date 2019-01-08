@@ -1,0 +1,17 @@
+{
+    "name": "xiaoyuqin/phpunit-example",
+    "require": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "authors": [
+        {
+            "name": "xiaoyuqinA",
+            "email": "137692663@qq.com"
+        }
+    ],
+    "autolod": {
+        "psr-4": {
+            "phpUnitExample\\": "src/"
+        }
+    }
+}
