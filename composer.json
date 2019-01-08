@@ -9,9 +9,9 @@
             "email": "137692663@qq.com"
         }
     ],
-    "autolod": {
+    "autoload": {
         "psr-4": {
-            "phpUnitExample\\": "src/"
+            "phpunitExample\\": "src/"
         }
     }
 }

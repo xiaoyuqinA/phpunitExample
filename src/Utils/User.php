@@ -10,7 +10,7 @@
 // +--------------------------------------------------------------------------
 
 
-namespace phpunitExample;
+namespace phpunitExample\Utils;
 
 
 class User
@@ -31,7 +31,7 @@ class User
     {
         $this->userInfo = [
             'uid' => $this->uid,
-            'userName' => "to8to{$this->uid}"
+            'userName' => "to8to-{$this->uid}"
         ];
     }
 
@@ -40,4 +40,13 @@ class User
         return $this->userInfo;
     }
 
+    public function getUid()
+    {
+        return $this->userInfo['uid'];
+    }
+
+    public function getUserName()
+    {
+        return $this->userInfo['userName'];
+    }
 }
