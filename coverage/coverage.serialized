@@ -1,0 +1,100 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/www/phpunitExample/tests/Utils/UserTest.php' => 
+  array (
+    20 => 
+    array (
+    ),
+    25 => NULL,
+    34 => 
+    array (
+      0 => 'UserTest::testGetUserInfo with data set "first"',
+    ),
+    35 => 
+    array (
+      0 => 'UserTest::testGetUserInfo with data set "first"',
+    ),
+    36 => 
+    array (
+      0 => 'UserTest::testGetUserInfo with data set "first"',
+    ),
+    37 => 
+    array (
+      0 => 'UserTest::testGetUserInfo with data set "first"',
+    ),
+    38 => 
+    array (
+      0 => 'UserTest::testGetUserInfo with data set "first"',
+    ),
+    39 => 
+    array (
+      0 => 'UserTest::testGetUserInfo with data set "first"',
+    ),
+    40 => 
+    array (
+      0 => 'UserTest::testGetUserInfo with data set "first"',
+    ),
+    50 => 
+    array (
+      0 => 'UserTest::getUid with data set "first"',
+    ),
+    51 => 
+    array (
+      0 => 'UserTest::getUid with data set "first"',
+    ),
+    52 => 
+    array (
+      0 => 'UserTest::getUid with data set "first"',
+    ),
+    54 => 
+    array (
+      0 => 'UserTest::getUid with data set "first"',
+    ),
+    64 => 
+    array (
+      0 => 'UserTest::getUserName with data set "first"',
+    ),
+    65 => 
+    array (
+      0 => 'UserTest::getUserName with data set "first"',
+    ),
+    66 => 
+    array (
+      0 => 'UserTest::getUserName with data set "first"',
+    ),
+    68 => 
+    array (
+      0 => 'UserTest::getUserName with data set "first"',
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => NULL,
+  ),
+  'UserTest::testGetUserInfo with data set "first"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UserTest::getUid with data set "first"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UserTest::getUserName with data set "first"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/www/phpunitExample/tests/Utils/UserTest.php' => true,
+));
+
+return $coverage;
