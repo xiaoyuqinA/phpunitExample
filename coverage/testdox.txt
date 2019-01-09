@@ -1,5 +1,5 @@
 User
- [x] Get user info first
- [x] Get uid first
- [x] Get user name first
+ [x] Get user info
+ [x] Get uid
+ [x] Get user name
 

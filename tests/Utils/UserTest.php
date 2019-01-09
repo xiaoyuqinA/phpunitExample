@@ -14,23 +14,20 @@ use phpunitExample\Utils\User;
 
 class UserTest extends PHPUnit\Framework\TestCase
 {
-    public function dataProvider()
+    protected $data = [];
+
+    public function setUp()
     {
-        return [
-            'first' => [
-                'uid' => 2019,
-                'name' => 'to8to-2019'
-            ],
+        $this->data = [
+            'uid' => 2019,
+            'userName' => 'to8to-2019'
         ];
     }
 
-    /**
-     * @param $uid
-     * @param $userName
-     * @dataProvider dataProvider
-     */
-    public function testGetUserInfo($uid,$userName)
+    public function testGetUserInfo()
     {
+        $uid = $this->data['uid'];
+        $userName = $this->data['userName'];
         $user = new User($uid);
         $userInfo = $user->getUserInfo();
         $this->assertArrayHasKey('uid', $userInfo);
@@ -40,13 +37,11 @@ class UserTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @param $uid
-     * @param $userName
      * @test
-     * @dataProvider dataProvider
      */
-    public function getUid($uid,$userName)
+    public function getUid()
     {
+        $uid = $this->data['uid'];
         $user = new User($uid);
         $expectUid = $user->getUid();
         $this->assertEquals($uid, $expectUid);
@@ -54,13 +49,12 @@ class UserTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @param $uid
-     * @param $userName
      * @test
-     * @dataProvider dataProvider
      */
-    public function getUserName($uid,$userName)
+    public function getUserName()
     {
+        $uid = $this->data['uid'];
+        $userName = $this->data['userName'];
         $user = new User($uid);
         $expectUserName = $user->getUserName();
         $this->assertEquals($userName, $expectUserName);

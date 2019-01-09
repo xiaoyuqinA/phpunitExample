@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1547047207">
-  <project timestamp="1547047207">
+<coverage generated="1547049257">
+  <project timestamp="1547049257">
     <file name="/www/phpunitExample/tests/Utils/UserTest.php">
       <class name="UserTest" namespace="global">
-        <metrics complexity="4" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="15" elements="20" coveredelements="18"/>
+        <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="26" coveredelements="26"/>
       </class>
-      <line num="17" type="method" name="dataProvider" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="20" type="stmt" count="0"/>
-      <line num="32" type="method" name="testGetUserInfo" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="method" name="setUp" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="21" type="stmt" count="3"/>
+      <line num="25" type="stmt" count="3"/>
+      <line num="27" type="method" name="testGetUserInfo" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <line num="31" type="stmt" count="1"/>
+      <line num="32" type="stmt" count="1"/>
+      <line num="33" type="stmt" count="1"/>
       <line num="34" type="stmt" count="1"/>
       <line num="35" type="stmt" count="1"/>
       <line num="36" type="stmt" count="1"/>
       <line num="37" type="stmt" count="1"/>
-      <line num="38" type="stmt" count="1"/>
-      <line num="39" type="stmt" count="1"/>
-      <line num="40" type="stmt" count="1"/>
-      <line num="48" type="method" name="getUid" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="50" type="stmt" count="1"/>
-      <line num="51" type="stmt" count="1"/>
-      <line num="52" type="stmt" count="1"/>
-      <line num="54" type="stmt" count="1"/>
-      <line num="62" type="method" name="getUserName" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="64" type="stmt" count="1"/>
-      <line num="65" type="stmt" count="1"/>
-      <line num="66" type="stmt" count="1"/>
-      <line num="68" type="stmt" count="1"/>
-      <metrics loc="69" ncloc="34" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="15" elements="20" coveredelements="18"/>
+      <line num="42" type="method" name="getUid" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="44" type="stmt" count="1"/>
+      <line num="45" type="stmt" count="1"/>
+      <line num="46" type="stmt" count="1"/>
+      <line num="47" type="stmt" count="1"/>
+      <line num="49" type="stmt" count="1"/>
+      <line num="54" type="method" name="getUserName" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="56" type="stmt" count="1"/>
+      <line num="57" type="stmt" count="1"/>
+      <line num="58" type="stmt" count="1"/>
+      <line num="59" type="stmt" count="1"/>
+      <line num="60" type="stmt" count="1"/>
+      <line num="62" type="stmt" count="1"/>
+      <metrics loc="63" ncloc="39" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="26" coveredelements="26"/>
     </file>
-    <metrics files="1" loc="69" ncloc="34" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="15" elements="20" coveredelements="18"/>
+    <metrics files="1" loc="63" ncloc="39" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="26" coveredelements="26"/>
   </project>
 </coverage>
