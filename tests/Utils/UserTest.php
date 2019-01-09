@@ -16,6 +16,7 @@ class UserTest extends PHPUnit\Framework\TestCase
 {
     protected $data = [];
 
+
     public function setUp()
     {
         $this->data = [
