@@ -1,5 +1,0 @@
-User
- [x] Get user info with data set "first"
- [x] Get uid with data set "first"
- [x] Get user name with data set "first"
-
