@@ -1,7 +1,7 @@
 <?php
 $coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
 $coverage->setData(array (
-  '/www/phpunitExample/tests/Utils/UserTest.php' => 
+  '/usr/local/var/www/phpunitExample/tests/Utils/UserTest.php' => 
   array (
     20 => 
     array (
@@ -73,7 +73,7 @@ $coverage->setTests(array (
   'UNCOVERED_FILES_FROM_WHITELIST' => 
   array (
     'size' => 'unknown',
-    'status' => NULL,
+    'status' => -1,
   ),
   'UserTest::testGetUserInfo with data set "first"' => 
   array (
@@ -94,7 +94,7 @@ $coverage->setTests(array (
 
 $filter = $coverage->filter();
 $filter->setWhitelistedFiles(array (
-  '/www/phpunitExample/tests/Utils/UserTest.php' => true,
+  '/usr/local/var/www/phpunitExample/tests/Utils/UserTest.php' => true,
 ));
 
 return $coverage;

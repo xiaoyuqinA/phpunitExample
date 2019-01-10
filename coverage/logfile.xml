@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="unit" tests="3" assertions="6" errors="0" failures="0" skipped="0" time="0.023149">
-    <testsuite name="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" tests="3" assertions="6" errors="0" failures="0" skipped="0" time="0.023149">
-      <testsuite name="UserTest::testGetUserInfo" tests="1" assertions="4" errors="0" failures="0" skipped="0" time="0.010197">
-        <testcase name="testGetUserInfo with data set &quot;first&quot;" class="UserTest" classname="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" line="32" assertions="4" time="0.010197"/>
+  <testsuite name="unit" tests="3" assertions="6" errors="0" failures="0" skipped="0" time="0.030221">
+    <testsuite name="UserTest" file="/usr/local/var/www/phpunitExample/tests/Utils/UserTest.php" tests="3" assertions="6" errors="0" failures="0" skipped="0" time="0.030221">
+      <testsuite name="UserTest::testGetUserInfo" tests="1" assertions="4" errors="0" failures="0" skipped="0" time="0.020381">
+        <testcase name="testGetUserInfo with data set &quot;first&quot;" class="UserTest" classname="UserTest" file="/usr/local/var/www/phpunitExample/tests/Utils/UserTest.php" line="32" assertions="4" time="0.020381"/>
       </testsuite>
-      <testsuite name="UserTest::getUid" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.006874">
-        <testcase name="getUid with data set &quot;first&quot;" class="UserTest" classname="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" line="48" assertions="1" time="0.006874"/>
+      <testsuite name="UserTest::getUid" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.005526">
+        <testcase name="getUid with data set &quot;first&quot;" class="UserTest" classname="UserTest" file="/usr/local/var/www/phpunitExample/tests/Utils/UserTest.php" line="48" assertions="1" time="0.005526"/>
       </testsuite>
-      <testsuite name="UserTest::getUserName" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.006078">
-        <testcase name="getUserName with data set &quot;first&quot;" class="UserTest" classname="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" line="62" assertions="1" time="0.006078"/>
+      <testsuite name="UserTest::getUserName" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.004314">
+        <testcase name="getUserName with data set &quot;first&quot;" class="UserTest" classname="UserTest" file="/usr/local/var/www/phpunitExample/tests/Utils/UserTest.php" line="62" assertions="1" time="0.004314"/>
       </testsuite>
     </testsuite>
   </testsuite>

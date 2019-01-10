@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1547047207">
-  <project timestamp="1547047207">
-    <file name="/www/phpunitExample/tests/Utils/UserTest.php">
+<coverage generated="1547087948">
+  <project timestamp="1547087948">
+    <file name="/usr/local/var/www/phpunitExample/tests/Utils/UserTest.php">
       <class name="UserTest" namespace="global">
         <metrics complexity="4" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="15" elements="20" coveredelements="18"/>
       </class>
-      <line num="17" type="method" name="dataProvider" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="17" type="method" name="dataProvider" visibility="public" complexity="1" crap="2.00" count="0"/>
       <line num="20" type="stmt" count="0"/>
       <line num="32" type="method" name="testGetUserInfo" visibility="public" complexity="1" crap="1" count="1"/>
       <line num="34" type="stmt" count="1"/>
