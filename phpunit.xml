@@ -9,7 +9,6 @@
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          forceCoversAnnotation="false"
-         mapTestClassNameToCoveredClassName="false"
          processIsolation="false"
          stopOnError="false"
          stopOnFailure="false"
@@ -53,9 +52,7 @@
         <!--全局变量设置，相当于$_REQUEST['foo'] = 'bar';-->
         <request name="foo" value="bar"/>
     </php>
-    <groups>
 
-    </groups>
     <!--<logging> 元素及其 <log> 子元素用于配置测试执行期间的日志记录。-->
     <logging>
         <log type="coverage-html" target="coverage/report-html" lowUpperBound="35"
@@ -63,7 +60,7 @@
         <log type="coverage-clover" target="coverage/coverage.xml"/>
         <log type="coverage-php" target="coverage/coverage.serialized"/>
         <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
-        <log type="junit" target="coverage/logfile.xml" logIncompleteSkipped="false"/>
+        <log type="junit" target="coverage/logfile.xml"/>
         <log type="testdox-html" target="coverage/testdox.html"/>
         <log type="testdox-text" target="coverage/testdox.txt"/>
     </logging>
@@ -73,8 +70,4 @@
             <directory suffix="Test.php">tests</directory>
         </whitelist>
     </filter>
-
-    <listeners>
-
-    </listeners>
 </phpunit>

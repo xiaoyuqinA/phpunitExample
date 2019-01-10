@@ -1,5 +1,0 @@
-User
- [x] Get user info
- [x] Get uid
- [x] Get user name
-
