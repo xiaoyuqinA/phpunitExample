@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="unit" tests="3" assertions="6" errors="0" failures="0" skipped="0" time="0.028338">
+    <testsuite name="UserTest" file="/usr/local/var/www/phpunitExample/tests/Utils/UserTest.php" tests="3" assertions="6" errors="0" failures="0" skipped="0" time="0.028338">
+      <testcase name="testGetUserInfo" class="UserTest" classname="UserTest" file="/usr/local/var/www/phpunitExample/tests/Utils/UserTest.php" line="17" assertions="4" time="0.020152"/>
+      <testcase name="getUid" class="UserTest" classname="UserTest" file="/usr/local/var/www/phpunitExample/tests/Utils/UserTest.php" line="32" assertions="1" time="0.004204"/>
+      <testcase name="getUserName" class="UserTest" classname="UserTest" file="/usr/local/var/www/phpunitExample/tests/Utils/UserTest.php" line="44" assertions="1" time="0.003982"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
