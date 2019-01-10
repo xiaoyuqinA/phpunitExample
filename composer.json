@@ -1,7 +1,8 @@
 {
     "name": "xiaoyuqin/phpunit-example",
     "require": {
-        "phpunit/phpunit": "^7.5"
+        "phpunit/phpunit": "^7.5",
+        "mikey179/vfsStream": "~1"
     },
     "authors": [
         {

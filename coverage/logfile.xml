@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="unit" tests="3" assertions="6" errors="0" failures="0" skipped="0" time="0.025114">
-    <testsuite name="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" tests="3" assertions="6" errors="0" failures="0" skipped="0" time="0.025114">
-      <testcase name="testGetUserInfo" class="UserTest" classname="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" line="27" assertions="4" time="0.012759"/>
-      <testcase name="getUid" class="UserTest" classname="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" line="42" assertions="1" time="0.006226"/>
-      <testcase name="getUserName" class="UserTest" classname="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" line="54" assertions="1" time="0.006129"/>
+  <testsuite name="unit" tests="4" assertions="7" errors="0" failures="0" skipped="0" time="0.035003">
+    <testsuite name="UserRepositoryTest" file="/www/phpunitExample/tests/Utils/UserRepositoryTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.016694">
+      <testcase name="testAdd" class="UserRepositoryTest" classname="UserRepositoryTest" file="/www/phpunitExample/tests/Utils/UserRepositoryTest.php" line="23" assertions="1" time="0.016694"/>
+    </testsuite>
+    <testsuite name="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" tests="3" assertions="6" errors="0" failures="0" skipped="0" time="0.018309">
+      <testcase name="testGetUserInfo" class="UserTest" classname="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" line="28" assertions="4" time="0.006748"/>
+      <testcase name="getUid" class="UserTest" classname="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" line="43" assertions="1" time="0.005511"/>
+      <testcase name="getUserName" class="UserTest" classname="UserTest" file="/www/phpunitExample/tests/Utils/UserTest.php" line="55" assertions="1" time="0.006050"/>
     </testsuite>
   </testsuite>
 </testsuites>
