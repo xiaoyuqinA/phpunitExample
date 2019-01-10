@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1547079567">
-  <project timestamp="1547079567">
+<coverage generated="1547079981">
+  <project timestamp="1547079981">
     <file name="/www/phpunitExample/tests/Utils/UserRepositoryTest.php">
       <class name="UserRepositoryTest" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="8" coveredelements="8"/>
