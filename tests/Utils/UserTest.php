@@ -14,10 +14,21 @@ use phpunitExample\Utils\User;
 
 class UserTest extends PHPUnit\Framework\TestCase
 {
+    protected $data = [];
+
+
+    public function setUp()
+    {
+        $this->data = [
+            'uid' => 2019,
+            'userName' => 'to8to-2019'
+        ];
+    }
+
     public function testGetUserInfo()
     {
-        $uid = 2019;
-        $userName = "to8to-{$uid}";
+        $uid = $this->data['uid'];
+        $userName = $this->data['userName'];
         $user = new User($uid);
         $userInfo = $user->getUserInfo();
         $this->assertArrayHasKey('uid', $userInfo);
@@ -31,7 +42,7 @@ class UserTest extends PHPUnit\Framework\TestCase
      */
     public function getUid()
     {
-        $uid = 2019;
+        $uid = $this->data['uid'];
         $user = new User($uid);
         $expectUid = $user->getUid();
         $this->assertEquals($uid, $expectUid);
@@ -43,8 +54,8 @@ class UserTest extends PHPUnit\Framework\TestCase
      */
     public function getUserName()
     {
-        $uid = 2019;
-        $userName = "to8to-{$uid}";
+        $uid = $this->data['uid'];
+        $userName = $this->data['userName'];
         $user = new User($uid);
         $expectUserName = $user->getUserName();
         $this->assertEquals($userName, $expectUserName);
